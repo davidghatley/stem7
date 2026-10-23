@@ -1,0 +1,62 @@
+{
+ "GLYPHS": {
+  "mise_en_place": [
+   "X.X.X",
+   ".....",
+   "X.X.X",
+   ".....",
+   "XXXXX"
+  ],
+  "bonfire": [
+   "..X..",
+   ".XX..",
+   ".XXX.",
+   "XX.XX",
+   "X.X.X"
+  ],
+  "nibble": [
+   "XXX..",
+   "XXXX.",
+   "XXXXX",
+   "XXXXX",
+   "XXXXX"
+  ],
+  "napkin": [
+   "XXXXX",
+   "XXXX.",
+   "XXX..",
+   "XX...",
+   "X...."
+  ],
+  "playdough": [
+   ".XXX.",
+   "XXXXX",
+   "X.X.X",
+   "XXXXX",
+   "X...X"
+  ],
+  "anime": [
+   "X.X.X",
+   "XXXXX",
+   "X...X",
+   "XXXXX",
+   "X.X.X"
+  ],
+  "manual": [
+   "XXXXX",
+   "X...X",
+   "X.X.X",
+   "X...X",
+   "XXXXX"
+  ]
+ },
+ "MARK": [
+  "...X...",
+  "...X...",
+  "...X...",
+  "XXXXXXX",
+  "X..X..X",
+  "X..X..X",
+  "XXXX..X"
+ ]
+}

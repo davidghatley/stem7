@@ -1,0 +1,202 @@
+# kern-bold.txt: whole-cell kerning for Stem 7 Bold (values in cells; 1 cell = 300 units).
+# The AUTO block is written by `stemctl kern --write` from the glyph drawings (rule in s7lib/kern.py).
+# Put hand decisions in the MANUAL block as `kern <glyph> <glyph> <cells>`: it survives --write and wins.
+# == AUTO
+class R1 = period ellipsis
+class R2 = quoteleft quotedblleft
+class R3 = quoteright quotedblright
+class R4 = quotesingle quotedbl
+class L1 = b h
+class L2 = quoteleft quotedblleft
+class L3 = quoteright quotedblright
+class L4 = quotesingle quotedbl
+class R5 = a c e m n o r u w
+class R6 = g y
+class L5 = g q y
+class R7 = I parenright
+class L6 = m n o u w
+class L7 = period ellipsis
+kern F J -2   # min 5 -> 3, mean 5.7
+kern F comma -2   # min 5 -> 3, mean 5.7
+kern F R1 -2   # min 5 -> 3, mean 5.0
+kern L T -2   # min 3 -> 1, mean 5.0
+kern L hyphen -2   # min 5 -> 3, mean 5.0
+kern L R2 -2   # min 5 -> 3, mean 5.3
+kern L R3 -2   # min 5 -> 3, mean 5.7
+kern L R4 -2   # min 5 -> 3, mean 5.0
+kern P J -2   # min 6 -> 4, mean 6.0
+kern P comma -2   # min 6 -> 4, mean 6.0
+kern P R1 -2   # min 6 -> 4, mean 6.0
+kern T J -2   # min 3 -> 1, mean 5.1
+kern Y J -2   # min 3 -> 1, mean 5.1
+kern L1 R4 -2   # min 5 -> 3, mean 5.0
+kern f J -2   # min 3 -> 1, mean 5.1
+kern hyphen J -2   # min 6 -> 4, mean 6.0
+kern k R4 -2   # min 5 -> 3, mean 5.0
+kern question J -2   # min 4 -> 2, mean 5.4
+kern L2 J -2   # min 6 -> 4, mean 6.0
+kern L3 J -2   # min 6 -> 4, mean 6.0
+kern L4 J -2   # min 6 -> 4, mean 6.0
+kern L4 d -2   # min 5 -> 3, mean 5.0
+kern C hyphen -1   # min 5 -> 4, mean 5.0
+kern C j -1   # min 2 -> 1, mean 3.1
+kern C R3 -1   # min 2 -> 1, mean 3.0
+kern C t -1   # min 2 -> 1, mean 3.8
+kern C v -1   # min 2 -> 1, mean 3.8
+kern F R5 -1   # min 2 -> 1, mean 3.5
+kern F colon -1   # min 2 -> 1, mean 3.5
+kern F d -1   # min 2 -> 1, mean 4.3
+kern F R6 -1   # min 2 -> 1, mean 4.0
+kern F j -1   # min 2 -> 1, mean 4.0
+kern F p -1   # min 2 -> 1, mean 3.8
+kern F q -1   # min 2 -> 1, mean 4.0
+kern F s -1   # min 2 -> 1, mean 4.0
+kern F semicolon -1   # min 3 -> 2, mean 4.6
+kern F t -1   # min 2 -> 1, mean 3.7
+kern F v -1   # min 2 -> 1, mean 4.0
+kern F x -1   # min 2 -> 1, mean 4.0
+kern F z -1   # min 2 -> 1, mean 4.5
+kern K hyphen -1   # min 3 -> 2, mean 3.0
+kern L V -1   # min 2 -> 1, mean 4.4
+kern L Y -1   # min 3 -> 2, mean 4.6
+kern L j -1   # min 2 -> 1, mean 4.3
+kern L question -1   # min 3 -> 2, mean 4.8
+kern L t -1   # min 2 -> 1, mean 4.5
+kern L v -1   # min 2 -> 1, mean 3.8
+kern P j -1   # min 2 -> 1, mean 3.7
+kern P semicolon -1   # min 2 -> 1, mean 4.4
+kern T R5 -1   # min 3 -> 2, mean 3.0
+kern T colon -1   # min 3 -> 2, mean 3.0
+kern T comma -1   # min 3 -> 2, mean 3.7
+kern T d -1   # min 3 -> 2, mean 4.0
+kern T R6 -1   # min 3 -> 2, mean 3.6
+kern T hyphen -1   # min 3 -> 2, mean 3.0
+kern T j -1   # min 2 -> 1, mean 3.4
+kern T p -1   # min 3 -> 2, mean 3.0
+kern T R1 -1   # min 3 -> 2, mean 3.0
+kern T q -1   # min 3 -> 2, mean 3.6
+kern T s -1   # min 3 -> 2, mean 3.8
+kern T semicolon -1   # min 3 -> 2, mean 3.8
+kern T t -1   # min 2 -> 1, mean 3.5
+kern T v -1   # min 3 -> 2, mean 3.8
+kern T x -1   # min 3 -> 2, mean 3.5
+kern T z -1   # min 3 -> 2, mean 4.0
+kern V J -1   # min 2 -> 1, mean 4.9
+kern V comma -1   # min 3 -> 2, mean 3.0
+kern Y comma -1   # min 3 -> 2, mean 3.7
+kern Y R1 -1   # min 3 -> 2, mean 3.0
+kern Y semicolon -1   # min 2 -> 1, mean 3.0
+kern a T -1   # min 3 -> 2, mean 3.6
+kern a question -1   # min 3 -> 2, mean 4.0
+kern a R4 -1   # no shared rows
+kern L1 T -1   # min 3 -> 2, mean 3.7
+kern L1 j -1   # min 2 -> 1, mean 3.1
+kern L1 question -1   # min 3 -> 2, mean 4.2
+kern c T -1   # min 3 -> 2, mean 3.0
+kern c question -1   # min 3 -> 2, mean 3.5
+kern c R4 -1   # no shared rows
+kern colon T -1   # min 3 -> 2, mean 3.0
+kern comma T -1   # min 3 -> 2, mean 3.0
+kern comma Y -1   # min 3 -> 2, mean 3.0
+kern comma hyphen -1   # no shared rows
+kern comma question -1   # min 3 -> 2, mean 3.0
+kern comma R2 -1   # no shared rows
+kern comma R3 -1   # no shared rows
+kern comma R4 -1   # no shared rows
+kern e T -1   # min 3 -> 2, mean 3.0
+kern e question -1   # min 3 -> 2, mean 3.5
+kern e R4 -1   # no shared rows
+kern f comma -1   # min 3 -> 2, mean 3.7
+kern f R1 -1   # min 3 -> 2, mean 3.0
+kern f semicolon -1   # min 2 -> 1, mean 3.0
+kern L5 T -1   # min 3 -> 2, mean 3.0
+kern L5 question -1   # min 3 -> 2, mean 3.5
+kern L5 R4 -1   # no shared rows
+kern hyphen T -1   # min 3 -> 2, mean 3.0
+kern hyphen Z -1   # min 2 -> 1, mean 3.3
+kern hyphen comma -1   # no shared rows
+kern hyphen period -1   # no shared rows
+kern hyphen question -1   # min 3 -> 2, mean 4.0
+kern hyphen R4 -1   # no shared rows
+kern k R7 -1   # min 2 -> 1, mean 3.1
+kern k J -1   # min 2 -> 1, mean 4.9
+kern k T -1   # min 3 -> 2, mean 4.0
+kern k X -1   # min 2 -> 1, mean 3.0
+kern k Z -1   # min 2 -> 1, mean 3.6
+kern k j -1   # min 2 -> 1, mean 3.6
+kern k question -1   # min 3 -> 2, mean 4.5
+kern l T -1   # min 2 -> 1, mean 3.4
+kern l question -1   # min 2 -> 1, mean 3.5
+kern L6 T -1   # min 3 -> 2, mean 3.0
+kern L6 question -1   # min 3 -> 2, mean 3.5
+kern L6 R4 -1   # no shared rows
+kern p T -1   # min 3 -> 2, mean 3.0
+kern p question -1   # min 3 -> 2, mean 3.5
+kern p R4 -1   # no shared rows
+kern period hyphen -1   # no shared rows
+kern L7 T -1   # min 3 -> 2, mean 3.0
+kern L7 Y -1   # min 3 -> 2, mean 3.0
+kern L7 question -1   # min 3 -> 2, mean 3.0
+kern L7 R2 -1   # no shared rows
+kern L7 R3 -1   # no shared rows
+kern L7 R4 -1   # no shared rows
+kern question R5 -1   # min 2 -> 1, mean 3.2
+kern question comma -1   # min 4 -> 3, mean 4.7
+kern question d -1   # min 2 -> 1, mean 4.0
+kern question R6 -1   # min 2 -> 1, mean 3.8
+kern question j -1   # min 2 -> 1, mean 3.7
+kern question p -1   # min 2 -> 1, mean 3.4
+kern question R1 -1   # min 4 -> 3, mean 4.0
+kern question q -1   # min 2 -> 1, mean 3.8
+kern question s -1   # min 3 -> 2, mean 4.0
+kern question semicolon -1   # min 2 -> 1, mean 3.8
+kern question t -1   # min 2 -> 1, mean 3.3
+kern question v -1   # min 2 -> 1, mean 4.0
+kern question x -1   # min 2 -> 1, mean 3.8
+kern question z -1   # min 2 -> 1, mean 4.2
+kern L2 comma -1   # no shared rows
+kern L2 d -1   # min 2 -> 1, mean 4.5
+kern L2 R1 -1   # no shared rows
+kern L2 s -1   # min 3 -> 2, mean 3.0
+kern L2 semicolon -1   # min 3 -> 2, mean 3.0
+kern L3 comma -1   # no shared rows
+kern L3 d -1   # min 2 -> 1, mean 4.2
+kern L3 R1 -1   # no shared rows
+kern L3 s -1   # min 3 -> 2, mean 3.0
+kern L4 R5 -1   # no shared rows
+kern L4 comma -1   # no shared rows
+kern L4 R6 -1   # no shared rows
+kern L4 hyphen -1   # no shared rows
+kern L4 p -1   # no shared rows
+kern L4 R1 -1   # no shared rows
+kern L4 q -1   # no shared rows
+kern L4 s -1   # no shared rows
+kern L4 v -1   # no shared rows
+kern L4 x -1   # no shared rows
+kern L4 z -1   # no shared rows
+kern r J -1   # min 3 -> 2, mean 4.8
+kern r T -1   # min 3 -> 2, mean 3.8
+kern r Z -1   # min 2 -> 1, mean 3.2
+kern r comma -1   # min 3 -> 2, mean 3.7
+kern r j -1   # min 2 -> 1, mean 3.2
+kern r R1 -1   # min 3 -> 2, mean 3.0
+kern r question -1   # min 3 -> 2, mean 4.5
+kern r R4 -1   # no shared rows
+kern r semicolon -1   # min 2 -> 1, mean 3.0
+kern s T -1   # min 3 -> 2, mean 3.0
+kern s question -1   # min 3 -> 2, mean 3.5
+kern s R4 -1   # no shared rows
+kern semicolon T -1   # min 3 -> 2, mean 3.0
+kern t T -1   # min 2 -> 1, mean 3.0
+kern t question -1   # min 2 -> 1, mean 3.2
+kern v T -1   # min 3 -> 2, mean 3.2
+kern v question -1   # min 3 -> 2, mean 3.8
+kern v R4 -1   # no shared rows
+kern x T -1   # min 3 -> 2, mean 3.0
+kern x question -1   # min 3 -> 2, mean 3.5
+kern x R4 -1   # no shared rows
+kern z T -1   # min 3 -> 2, mean 3.0
+kern z question -1   # min 3 -> 2, mean 3.5
+kern z R4 -1   # no shared rows
+
+# == MANUAL

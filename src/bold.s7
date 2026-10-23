@@ -1,0 +1,1272 @@
+
+# Stem 7 Bold: glyph source. Same format as regular.s7.
+# Rule: vertical stems are 2 cells, horizontals stay 1 cell; widen rather than close a counter.
+# Figures are tabular at 7 cells. The mark and the pantry glyphs are the same drawings as Regular.
+# No dh ligature in Bold: the mark is a one-cell drawing and stays one. Type it in Regular, or use U+E000.
+
+# space: 4 cells in Bold, one more than Regular, to match the wider letters.
+glyph space U+0020,U+00A0 width=4
+
+glyph figurespace U+2007 width=8
+
+glyph A U+0041
+XXXXXXX   # cap
+XX...XX
+XX...XX
+XXXXXXX   # x-height
+XX...XX
+XX...XX
+XX...XX   # baseline
+.......
+.......   # descender
+
+glyph B U+0042
+XXXXX..   # cap
+XX...XX
+XX...XX
+XXXXX..   # x-height
+XX...XX
+XX...XX
+XXXXX..   # baseline
+.......
+.......   # descender
+
+glyph C U+0043
+XXXXXX   # cap
+XX....
+XX....
+XX....   # x-height
+XX....
+XX....
+XXXXXX   # baseline
+......
+......   # descender
+
+glyph D U+0044
+XXXXX..   # cap
+XX...XX
+XX...XX
+XX...XX   # x-height
+XX...XX
+XX...XX
+XXXXX..   # baseline
+.......
+.......   # descender
+
+glyph E U+0045
+XXXXXX   # cap
+XX....
+XX....
+XXXXX.   # x-height
+XX....
+XX....
+XXXXXX   # baseline
+......
+......   # descender
+
+glyph F U+0046
+XXXXXX   # cap
+XX....
+XX....
+XXXXX.   # x-height
+XX....
+XX....
+XX....   # baseline
+......
+......   # descender
+
+glyph G U+0047
+XXXXXXX   # cap
+XX.....
+XX.....
+XX..XXX   # x-height
+XX...XX
+XX...XX
+XXXXXXX   # baseline
+.......
+.......   # descender
+
+glyph H U+0048
+XX...XX   # cap
+XX...XX
+XX...XX
+XXXXXXX   # x-height
+XX...XX
+XX...XX
+XX...XX   # baseline
+.......
+.......   # descender
+
+glyph I U+0049
+XXXX   # cap
+.XX.
+.XX.
+.XX.   # x-height
+.XX.
+.XX.
+XXXX   # baseline
+....
+....   # descender
+
+glyph J U+004A
+.....XX   # cap
+.....XX
+.....XX
+.....XX   # x-height
+.....XX
+XX...XX
+XXXXXXX   # baseline
+.......
+.......   # descender
+
+# K: arm and leg step two cells per row, meeting the stem on the bar row.
+glyph K U+004B
+XX...XX   # cap
+XX..XX.
+XX.XX..
+XXXX...   # x-height
+XX.XX..
+XX..XX.
+XX...XX   # baseline
+.......
+.......   # descender
+
+glyph L U+004C
+XX....   # cap
+XX....
+XX....
+XX....   # x-height
+XX....
+XX....
+XXXXXX   # baseline
+......
+......   # descender
+
+glyph M U+004D
+XXXXXXXXXX   # cap
+XX..XX..XX
+XX..XX..XX
+XX..XX..XX   # x-height
+XX..XX..XX
+XX..XX..XX
+XX..XX..XX   # baseline
+..........
+..........   # descender
+
+# N: widened to 8 so the diagonal can step two cells wide without filling the counter.
+glyph N U+004E
+XX....XX   # cap
+XX....XX
+XXXX..XX
+XX.XX.XX   # x-height
+XX..XXXX
+XX....XX
+XX....XX   # baseline
+........
+........   # descender
+
+glyph O U+004F
+XXXXXXX   # cap
+XX...XX
+XX...XX
+XX...XX   # x-height
+XX...XX
+XX...XX
+XXXXXXX   # baseline
+.......
+.......   # descender
+
+glyph P U+0050
+XXXXXXX   # cap
+XX...XX
+XX...XX
+XXXXXXX   # x-height
+XX.....
+XX.....
+XX.....   # baseline
+.......
+.......   # descender
+
+# Q: the tail cuts the bottom-right corner, two cells wide, as in Regular.
+glyph Q U+0051
+XXXXXXX   # cap
+XX...XX
+XX...XX
+XX...XX   # x-height
+XX.XXXX
+XX..XX.
+XXXX.XX   # baseline
+.......
+.......   # descender
+
+# R: the leg steps out two cells wide from the bar row.
+glyph R U+0052
+XXXXXXX   # cap
+XX...XX
+XX...XX
+XXXXXX.   # x-height
+XX..XX.
+XX...XX
+XX...XX   # baseline
+.......
+.......   # descender
+
+glyph S U+0053
+.XXXXXX   # cap
+XX.....
+XX.....
+.XXXXX.   # x-height
+.....XX
+.....XX
+XXXXXX.   # baseline
+.......
+.......   # descender
+
+glyph T U+0054
+XXXXXX   # cap
+..XX..
+..XX..
+..XX..   # x-height
+..XX..
+..XX..
+..XX..   # baseline
+......
+......   # descender
+
+glyph U U+0055
+XX...XX   # cap
+XX...XX
+XX...XX
+XX...XX   # x-height
+XX...XX
+XX...XX
+XXXXXXX   # baseline
+.......
+.......   # descender
+
+# V: straight for four rows, then two-cell steps to a three-cell point.
+glyph V U+0056
+XX...XX   # cap
+XX...XX
+XX...XX
+XX...XX   # x-height
+.XX.XX.
+.XX.XX.
+..XXX..   # baseline
+.......
+.......   # descender
+
+glyph W U+0057
+XX..XX..XX   # cap
+XX..XX..XX
+XX..XX..XX
+XX..XX..XX   # x-height
+XX..XX..XX
+XX..XX..XX
+XXXXXXXXXX   # baseline
+..........
+..........   # descender
+
+glyph X U+0058
+XX...XX   # cap
+XX...XX
+.XX.XX.
+..XXX..   # x-height
+.XX.XX.
+XX...XX
+XX...XX   # baseline
+.......
+.......   # descender
+
+# Y: six wide, like T, so the two-cell stem sits dead centre.
+glyph Y U+0059
+XX..XX   # cap
+XX..XX
+XX..XX
+XXXXXX   # x-height
+..XX..
+..XX..
+..XX..   # baseline
+......
+......   # descender
+
+glyph Z U+005A
+XXXXXXX   # cap
+.....XX
+....XX.
+..XXX..   # x-height
+.XX....
+XX.....
+XXXXXXX   # baseline
+.......
+.......   # descender
+
+glyph a U+0061
+.......   # cap
+.......
+.......
+XXXXXX.   # x-height
+XX..XX.
+XX..XX.
+XXXXXXX   # baseline
+.......
+.......   # descender
+
+glyph b U+0062
+XX....   # cap
+XX....
+XX....
+XXXXXX   # x-height
+XX..XX
+XX..XX
+XXXXXX   # baseline
+......
+......   # descender
+
+glyph c U+0063
+.....   # cap
+.....
+.....
+XXXXX   # x-height
+XX...
+XX...
+XXXXX   # baseline
+.....
+.....   # descender
+
+glyph d U+0064
+....XX   # cap
+....XX
+....XX
+XXXXXX   # x-height
+XX..XX
+XX..XX
+XXXXXX   # baseline
+......
+......   # descender
+
+glyph e U+0065 allow=block
+.......   # cap
+.......
+.......
+XXXXXXX   # x-height
+XX...XX
+XXXX...
+XXXXXXX   # baseline
+.......
+.......   # descender
+
+# f: the hook overlaps the stem by one cell so the top stays joined.
+glyph f U+0066
+.XXX   # cap
+XX..
+XX..
+XXXX   # x-height
+XX..
+XX..
+XX..   # baseline
+....
+....   # descender
+
+glyph g U+0067
+......   # cap
+......
+......
+XXXXXX   # x-height
+XX..XX
+XX..XX
+XXXXXX   # baseline
+....XX
+XXXXXX   # descender
+
+glyph h U+0068
+XX....   # cap
+XX....
+XX....
+XXXXXX   # x-height
+XX..XX
+XX..XX
+XX..XX   # baseline
+......
+......   # descender
+
+# i: a two-cell dot over a two-cell stem.
+glyph i U+0069
+XX   # cap
+XX
+..
+XX   # x-height
+XX
+XX
+XX   # baseline
+..
+..   # descender
+
+glyph j U+006A
+.XX   # cap
+.XX
+...
+.XX   # x-height
+.XX
+.XX
+.XX   # baseline
+.XX
+XXX   # descender
+
+# k: arm reaches the right edge, leg steps back from the bar-row junction.
+glyph k U+006B
+XX....   # cap
+XX....
+XX....
+XX..XX   # x-height
+XX.XX.
+XXXX..
+XX.XX.   # baseline
+......
+......   # descender
+
+glyph l U+006C
+XX.   # cap
+XX.
+XX.
+XX.   # x-height
+XX.
+XX.
+XXX   # baseline
+...
+...   # descender
+
+glyph m U+006D
+..........   # cap
+..........
+..........
+XXXXXXXXXX   # x-height
+XX..XX..XX
+XX..XX..XX
+XX..XX..XX   # baseline
+..........
+..........   # descender
+
+glyph n U+006E
+......   # cap
+......
+......
+XXXXXX   # x-height
+XX..XX
+XX..XX
+XX..XX   # baseline
+......
+......   # descender
+
+glyph o U+006F
+......   # cap
+......
+......
+XXXXXX   # x-height
+XX..XX
+XX..XX
+XXXXXX   # baseline
+......
+......   # descender
+
+glyph p U+0070
+......   # cap
+......
+......
+XXXXXX   # x-height
+XX..XX
+XX..XX
+XXXXXX   # baseline
+XX....
+XX....   # descender
+
+glyph q U+0071
+......   # cap
+......
+......
+XXXXXX   # x-height
+XX..XX
+XX..XX
+XXXXXX   # baseline
+....XX
+....XX   # descender
+
+glyph r U+0072
+....   # cap
+....
+....
+XXXX   # x-height
+XX..
+XX..
+XX..   # baseline
+....
+....   # descender
+
+# s: five wide
+# the spine overlaps by one cell. The six-wide s was the darkest letter in a word.
+glyph s U+0073
+.....   # cap
+.....
+.....
+.XXXX   # x-height
+XXX..
+..XXX
+XXXX.   # baseline
+.....
+.....   # descender
+
+# t: one row below the cap line, as in Regular.
+glyph t U+0074
+....   # cap
+.XX.
+.XX.
+XXXX   # x-height
+.XX.
+.XX.
+.XXX   # baseline
+....
+....   # descender
+
+glyph u U+0075
+......   # cap
+......
+......
+XX..XX   # x-height
+XX..XX
+XX..XX
+XXXXXX   # baseline
+......
+......   # descender
+
+glyph v U+0076
+.......   # cap
+.......
+.......
+XX...XX   # x-height
+XX...XX
+.XX.XX.
+..XXX..   # baseline
+.......
+.......   # descender
+
+glyph w U+0077
+..........   # cap
+..........
+..........
+XX..XX..XX   # x-height
+XX..XX..XX
+XX..XX..XX
+XXXXXXXXXX   # baseline
+..........
+..........   # descender
+
+glyph x U+0078 allow=block
+......   # cap
+......
+......
+XX..XX   # x-height
+.XXXX.
+.XXXX.
+XX..XX   # baseline
+......
+......   # descender
+
+glyph y U+0079
+......   # cap
+......
+......
+XX..XX   # x-height
+XX..XX
+XX..XX
+XXXXXX   # baseline
+....XX
+XXXXXX   # descender
+
+glyph z U+007A
+......   # cap
+......
+......
+XXXXXX   # x-height
+...XXX
+.XXX..
+XXXXXX   # baseline
+......
+......   # descender
+
+# zero: cut corners and a one-cell centre dot (allow=thin): no slash blob.
+glyph zero U+0030 tabular allow=thin
+.XXXXX.   # cap
+XX...XX
+XX...XX
+XX.X.XX   # x-height
+XX...XX
+XX...XX
+.XXXXX.   # baseline
+.......
+.......   # descender
+
+# one: stem centred in the 7-cell tabular box, flag and foot one cell either side.
+glyph one U+0031 tabular
+.XXXX..   # cap
+...XX..
+...XX..
+...XX..   # x-height
+...XX..
+...XX..
+..XXXX.   # baseline
+.......
+.......   # descender
+
+# two: hooked top, right stem, two-cell diagonal steps, as in Regular.
+glyph two U+0032 tabular
+.XXXXX.   # cap
+XX...XX
+.....XX
+....XX.   # x-height
+...XX..
+..XX...
+XXXXXXX   # baseline
+.......
+.......   # descender
+
+glyph three U+0033 tabular
+XXXXXXX   # cap
+.....XX
+.....XX
+..XXXXX   # x-height
+.....XX
+.....XX
+XXXXXXX   # baseline
+.......
+.......   # descender
+
+glyph four U+0034 tabular
+XX...XX   # cap
+XX...XX
+XX...XX
+XXXXXXX   # x-height
+.....XX
+.....XX
+.....XX   # baseline
+.......
+.......   # descender
+
+glyph five U+0035 tabular
+XXXXXXX   # cap
+XX.....
+XX.....
+XXXXXXX   # x-height
+.....XX
+.....XX
+XXXXXXX   # baseline
+.......
+.......   # descender
+
+# six: diagonal top terminal, two cells per step.
+glyph six U+0036 tabular
+...XXXX   # cap
+.XXX...
+XX.....
+XXXXXXX   # x-height
+XX...XX
+XX...XX
+XXXXXXX   # baseline
+.......
+.......   # descender
+
+# seven: even two-cell diagonal steps into the stem.
+glyph seven U+0037 tabular
+XXXXXXX   # cap
+.....XX
+....XX.
+...XX..   # x-height
+...XX..
+...XX..
+...XX..   # baseline
+.......
+.......   # descender
+
+glyph eight U+0038 tabular
+XXXXXXX   # cap
+XX...XX
+XX...XX
+XXXXXXX   # x-height
+XX...XX
+XX...XX
+XXXXXXX   # baseline
+.......
+.......   # descender
+
+glyph nine U+0039 tabular
+XXXXXXX   # cap
+XX...XX
+XX...XX
+XXXXXXX   # x-height
+.....XX
+...XXX.
+XXXX...   # baseline
+.......
+.......   # descender
+
+# dots are 2x2 in Bold. A 2x1 dot read as a dash (2.1 - TILE).
+glyph period U+002E
+..   # cap
+..
+..
+..   # x-height
+..
+XX
+XX   # baseline
+..
+..   # descender
+
+# comma: the 2x2 dot with a tail, the same drawing as quoteright.
+glyph comma U+002C
+...   # cap
+...
+...
+...   # x-height
+...
+.XX
+.XX   # baseline
+XX.
+...   # descender
+
+glyph colon U+003A
+..   # cap
+..
+XX
+XX   # x-height
+..
+XX
+XX   # baseline
+..
+..   # descender
+
+glyph semicolon U+003B
+...   # cap
+...
+.XX
+.XX   # x-height
+...
+.XX
+.XX   # baseline
+XX.
+...   # descender
+
+glyph exclam U+0021
+XX   # cap
+XX
+XX
+XX   # x-height
+..
+XX
+XX   # baseline
+..
+..   # descender
+
+# question: the hooked top of the bold 2 over a 2x2 dot.
+glyph question U+003F
+.XXXXX.   # cap
+XX...XX
+....XX.
+..XXX..   # x-height
+.......
+..XX...
+..XX...   # baseline
+.......
+.......   # descender
+
+glyph quotesingle U+0027
+XX   # cap
+XX
+..
+..   # x-height
+..
+..
+..   # baseline
+..
+..   # descender
+
+glyph quotedbl U+0022
+XX.XX   # cap
+XX.XX
+.....
+.....   # x-height
+.....
+.....
+.....   # baseline
+.....
+.....   # descender
+
+glyph hyphen U+002D
+....   # cap
+....
+....
+XXXX   # x-height
+....
+....
+....   # baseline
+....
+....   # descender
+
+glyph underscore U+005F
+.......   # cap
+.......
+.......
+.......   # x-height
+.......
+.......
+.......   # baseline
+.......
+XXXXXXX   # descender
+
+glyph parenleft U+0028
+.XX   # cap
+XX.
+XX.
+XX.   # x-height
+XX.
+XX.
+.XX   # baseline
+...
+...   # descender
+
+glyph parenright U+0029
+XX.   # cap
+.XX
+.XX
+.XX   # x-height
+.XX
+.XX
+XX.   # baseline
+...
+...   # descender
+
+glyph bracketleft U+005B
+XXX   # cap
+XX.
+XX.
+XX.   # x-height
+XX.
+XX.
+XXX   # baseline
+...
+...   # descender
+
+glyph bracketright U+005D
+XXX   # cap
+.XX
+.XX
+.XX   # x-height
+.XX
+.XX
+XXX   # baseline
+...
+...   # descender
+
+glyph braceleft U+007B
+.XXX   # cap
+.XX.
+.XX.
+XX..   # x-height
+.XX.
+.XX.
+.XXX   # baseline
+....
+....   # descender
+
+glyph braceright U+007D
+XXX.   # cap
+.XX.
+.XX.
+..XX   # x-height
+.XX.
+.XX.
+XXX.   # baseline
+....
+....   # descender
+
+# slash: spaced like Regular.
+glyph slash U+002F lsb=1 rsb=2
+....XX   # cap
+...XX.
+...XX.
+..XX..   # x-height
+.XX...
+.XX...
+XX....   # baseline
+......
+......   # descender
+
+# backslash: spaced like slash.
+glyph backslash U+005C lsb=1 rsb=2
+XX....   # cap
+.XX...
+.XX...
+..XX..   # x-height
+...XX.
+...XX.
+....XX   # baseline
+......
+......   # descender
+
+glyph bar U+007C
+XX   # cap
+XX
+XX
+XX   # x-height
+XX
+XX
+XX   # baseline
+XX
+XX   # descender
+
+glyph plus U+002B
+......   # cap
+..XX..
+..XX..
+XXXXXX   # x-height
+..XX..
+..XX..
+......   # baseline
+......
+......   # descender
+
+glyph equal U+003D
+......   # cap
+......
+XXXXXX
+......   # x-height
+XXXXXX
+......
+......   # baseline
+......
+......   # descender
+
+glyph asterisk U+002A
+......   # cap
+..XX..
+XXXXXX
+..XX..   # x-height
+.XXXX.
+XX..XX
+......   # baseline
+......
+......   # descender
+
+glyph numbersign U+0023
+.XX.XX.   # cap
+.XX.XX.
+XXXXXXX
+.XX.XX.   # x-height
+XXXXXXX
+.XX.XX.
+.XX.XX.   # baseline
+.......
+.......   # descender
+
+# percent: 2x2 dots and a two-cell slash.
+glyph percent U+0025 allow=block
+XX...XX   # cap
+XX..XX.
+....XX.
+...XX..   # x-height
+..XX...
+.XX..XX
+XX...XX   # baseline
+.......
+.......   # descender
+
+glyph ampersand U+0026
+XXXXX...   # cap
+XX.XX...
+XX.XX...
+XXXXX.XX   # x-height
+XX...XX.
+XX...XX.
+XXXXXXXX   # baseline
+........
+........   # descender
+
+# at: the inner a keeps one-cell details
+# at two cells it would fill solid.
+glyph at U+0040 allow=thin
+XXXXXXX   # cap
+XX...XX
+XX.XXXX
+XX.X.XX   # x-height
+XX.XXXX
+XX.....
+XXXXXXX   # baseline
+.......
+.......   # descender
+
+glyph dollar U+0024
+..XX..   # cap
+XXXXXX
+XXXX..
+XXXXXX   # x-height
+..XXXX
+XXXXXX
+..XX..   # baseline
+......
+......   # descender
+
+# less: 5 wide in an 8-cell box, the bold figure pitch.
+glyph less U+003C lsb=1 rsb=2
+.....   # cap
+...XX
+.XXX.
+XX...   # x-height
+.XXX.
+...XX
+.....   # baseline
+.....
+.....   # descender
+
+# greater: 5 wide in an 8-cell box, like less.
+glyph greater U+003E lsb=1 rsb=2
+.....   # cap
+XX...
+.XXX.
+...XX   # x-height
+.XXX.
+XX...
+.....   # baseline
+.....
+.....   # descender
+
+glyph asciicircum U+005E
+..XX..   # cap
+.XXXX.
+XX..XX
+......   # x-height
+......
+......
+......   # baseline
+......
+......   # descender
+
+glyph asciitilde U+007E
+.......   # cap
+.......
+.XX....
+XXXX.XX   # x-height
+...XXX.
+.......
+.......   # baseline
+.......
+.......   # descender
+
+glyph grave U+0060
+XX.   # cap
+.XX
+...
+...   # x-height
+...
+...
+...   # baseline
+...
+...   # descender
+
+# periodcentered: a 2x2 dot cannot centre on one row
+# it sits on rows 4-5, where the x-height and caps share most.
+glyph periodcentered U+00B7 allow=offaxis
+..   # cap
+..
+..
+XX   # x-height
+XX
+..
+..   # baseline
+..
+..   # descender
+
+glyph multiply U+00D7
+.......   # cap
+XX...XX
+.XX.XX.
+..XXX..   # x-height
+.XX.XX.
+XX...XX
+.......   # baseline
+.......
+.......   # descender
+
+glyph bullet U+2022 allow=block
+....   # cap
+....
+XXXX
+XXXX   # x-height
+XXXX
+....
+....   # baseline
+....
+....   # descender
+
+# degree: a small ring
+# its one-cell sides keep the hole open.
+glyph degree U+00B0 allow=thin
+XXXXX   # cap
+XX.XX
+XXXXX
+.....   # x-height
+.....
+.....
+.....   # baseline
+.....
+.....   # descender
+
+# arrows: two-cell head steps on a one-cell shaft, like a bold horizontal.
+glyph arrowright U+2192
+........   # cap
+....XX..
+.....XX.
+XXXXXXXX   # x-height
+.....XX.
+....XX..
+........   # baseline
+........
+........   # descender
+
+glyph arrowleft U+2190
+........   # cap
+..XX....
+.XX.....
+XXXXXXXX   # x-height
+.XX.....
+..XX....
+........   # baseline
+........
+........   # descender
+
+# arrowup: two-cell stem
+# the head flares one step per row.
+glyph arrowup U+2191 allow=block
+...XX...   # cap
+..XXXX..
+.XXXXXX.
+XX.XX.XX   # x-height
+...XX...
+...XX...
+...XX...   # baseline
+........
+........   # descender
+
+glyph arrowdown U+2193 allow=block
+...XX...   # cap
+...XX...
+...XX...
+XX.XX.XX   # x-height
+.XXXXXX.
+..XXXX..
+...XX...   # baseline
+........
+........   # descender
+
+# arrow NE: a solid right-angled head on a two-cell shaft
+# open arms clogged at two cells.
+glyph uni2197 U+2197 allow=block
+......   # cap
+..XXXX
+...XXX
+..XXXX   # x-height
+.XX...
+XX....
+......   # baseline
+......
+......   # descender
+
+glyph emdash U+2014
+..........   # cap
+..........
+..........
+XXXXXXXXXX   # x-height
+..........
+..........
+..........   # baseline
+..........
+..........   # descender
+
+glyph endash U+2013
+.......   # cap
+.......
+.......
+XXXXXXX   # x-height
+.......
+.......
+.......   # baseline
+.......
+.......   # descender
+
+glyph quoteright U+2019
+.XX   # cap
+.XX
+XX.
+...   # x-height
+...
+...
+...   # baseline
+...
+...   # descender
+
+glyph quoteleft U+2018
+.XX   # cap
+XX.
+XX.
+...   # x-height
+...
+...
+...   # baseline
+...
+...   # descender
+
+glyph quotedblleft U+201C
+.XX.XX   # cap
+XX.XX.
+XX.XX.
+......   # x-height
+......
+......
+......   # baseline
+......
+......   # descender
+
+glyph quotedblright U+201D
+.XX.XX   # cap
+.XX.XX
+XX.XX.
+......   # x-height
+......
+......
+......   # baseline
+......
+......   # descender
+
+glyph ellipsis U+2026
+........   # cap
+........
+........
+........   # x-height
+........
+XX.XX.XX
+XX.XX.XX   # baseline
+........
+........   # descender
+
+glyph dh.mark U+E000 from=MARK
+
+glyph pantry.mise_en_place U+E001 from=GLYPHS.mise_en_place
+
+glyph pantry.bonfire U+E002 from=GLYPHS.bonfire
+
+glyph pantry.nibble U+E003 from=GLYPHS.nibble
+
+glyph pantry.napkin U+E004 from=GLYPHS.napkin
+
+glyph pantry.playdough U+E005 from=GLYPHS.playdough
+
+glyph pantry.anime U+E006 from=GLYPHS.anime
+
+glyph pantry.manual U+E007 from=GLYPHS.manual

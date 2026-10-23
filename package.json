@@ -1,0 +1,34 @@
+{
+  "name": "stem7",
+  "version": "1.0.1",
+  "description": "A pixel font drawn on a 7-cell grid. Crisp at 16, 32, 48, 72 and 120px.",
+  "style": "stem7.css",
+  "main": "stem7.css",
+  "files": [
+    "stem7.css",
+    "fonts/*.woff2",
+    "fonts/*.ttf",
+    "OFL.txt",
+    "README.md"
+  ],
+  "keywords": [
+    "font",
+    "pixel font",
+    "bitmap",
+    "webfont",
+    "woff2",
+    "typeface"
+  ],
+  "license": "OFL-1.1",
+  "author": "David Hatley",
+  "homepage": "https://davidghatley.github.io/stem7/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidghatley/stem7.git"
+  },
+  "exports": {
+    ".": "./stem7.css",
+    "./stem7.css": "./stem7.css",
+    "./fonts/*": "./fonts/*"
+  }
+}

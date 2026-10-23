@@ -1,0 +1,14 @@
+/* Stem 7 v1.001 · SIL Open Font License 1.1 · github.com/davidghatley/stem7 */
+@font-face { font-family: "Stem 7"; src: url("fonts/Stem7-Regular.woff2") format("woff2"), url("fonts/Stem7-Regular.ttf") format("truetype"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Stem 7"; src: url("fonts/Stem7-Bold.woff2") format("woff2"), url("fonts/Stem7-Bold.ttf") format("truetype"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Stem 7 Grid"; src: url("fonts/Stem7-Grid.woff2") format("woff2"), url("fonts/Stem7-Grid.ttf") format("truetype"); font-weight: 400; font-style: normal; font-display: swap; }
+
+/* One cell is font-size / 8. Set it at 16, 32, 48, 72 or 120px and every edge lands on a whole pixel. */
+.stem7 { font-family: "Stem 7", ui-monospace, monospace; font-size: 32px; line-height: 1; letter-spacing: 0;
+  font-synthesis: none; font-kerning: normal; font-variant-ligatures: common-ligatures; -webkit-font-smoothing: none; }
+.stem7--16 { font-size: 16px; text-transform: uppercase; }  /* caps and figures only at 16px */
+.stem7--32 { font-size: 32px; }
+.stem7--48 { font-size: 48px; }
+.stem7--72 { font-size: 72px; }
+.stem7--120 { font-size: 120px; }
+.stem7--grid { font-family: "Stem 7 Grid", "Stem 7", ui-monospace, monospace; }  /* from 48px up */
