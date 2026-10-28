@@ -2,7 +2,7 @@
 
 A pixel font that refuses to blur. Stem 7 is drawn on the 7 × 7 grid of my mark, and one cell is always the font size divided by eight. At **16, 32, 48, 72 and 120 px** every edge lands on a whole pixel, with zero grey pixels.
 
-**Website, with every glyph and how it was made: https://davidghatley.github.io/stem7/**
+**Website, with every glyph and how it was made: https://davidghatley.github.io/fonts/stem-7/**
 
 - Three styles: Regular, a hand-drawn Bold, and Grid (a variable font where every cell is its own square).
 - 120 glyphs each: Basic Latin, curly quotes, dashes, arrows, `·` `×` `•` `°`, a figure space, my mark at U+E000 (or type `dh`) and seven project glyphs at U+E001–E007.
